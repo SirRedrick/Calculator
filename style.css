@@ -8,6 +8,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
 	font-weight: bold;
 	color: #fff;
 }
@@ -30,10 +31,15 @@ html {
 }
 
 .input {
+	padding: 0.25rem;
 	width: max-width;
 	height: var(--button-size);
 	background: #000;
 	margin-bottom: 2px;
+	font-size: 1.4rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 
 .buttons {
