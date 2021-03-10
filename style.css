@@ -8,4 +8,46 @@
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+
+html {
+	--button-size: 60px;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calculator {
+	width: max-content;
+	padding: 0.25rem;
+	background: #ccc;
+}
+
+.input {
+	width: max-width;
+	height: var(--button-size);
+	background: #000;
+	margin-bottom: 2px;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, var(--button-size));
+	grid-template-rows: repeat(5, var(--button-size));
+	gap: 2px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	background: #000;
 }
